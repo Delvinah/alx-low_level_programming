@@ -7,9 +7,13 @@
 int main(void)
 {
 	char b;
-	for (b = 'd'; b <= 'z'; b++)
-	{
-		putchar (b);
-	}
+
+	b = 'd';
+		while
+			(b <= 'z') {
+				putchar(b);
+				b++;
+		}
+	putchar('\n');
 	return (0);
 }
