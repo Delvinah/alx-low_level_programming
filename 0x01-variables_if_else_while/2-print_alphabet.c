@@ -7,13 +7,9 @@
 int main(void)
 {
 	char b;
-
-	b = 'e';
-	while
-		(b <= 'r') {
-			putchar(b);
-			b++;
-		}
-	putchar('\n');
+	for (b = 'd'; b <= 'z'; b++)
+	{
+		putchar (b);
+	}
 	return (0);
 }
